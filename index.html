@@ -1,0 +1,762 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hackathon Rio Branco 2025 - Evento de Desenvolvimento de Software</title>
+    <meta name="description" content="Hackathon Rio Branco 2025 - Evento educacional de desenvolvimento de software para estudantes das Faculdades Integradas Rio Branco">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header Fixo -->
+    <header class="header" id="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <img src="riobrancologolaranja.png" alt="Rio Branco Logo">
+                    <div class="logo-text">
+                        <h1>Hackathon Rio Branco</h1>
+                        <span>2025</span>
+                    </div>
+                </div>
+                <nav class="nav" id="nav">
+                    <ul class="nav-list">
+                        <li><a href="#home" class="nav-link">Home</a></li>
+                        <li><a href="#sobre" class="nav-link">Sobre</a></li>
+                        <li><a href="#objetivos" class="nav-link">Objetivos</a></li>
+                        <li><a href="#como-funciona" class="nav-link">Como Funciona</a></li>
+                        <li><a href="#leetcode" class="nav-link">LeetCode Champions</a></li>
+                        <li><a href="#cronograma" class="nav-link">Cronograma</a></li>
+                        <li><a href="#premiacao" class="nav-link">Premiação</a></li>
+                        <li><a href="#inscricoes" class="nav-link">Inscrições</a></li>
+                        <li><a href="#contato" class="nav-link">Contato</a></li>
+                    </ul>
+                </nav>
+                <div class="header-actions">
+                    <button class="btn-login" id="btnLogin">Login</button>
+                    <button class="menu-toggle" id="menuToggle">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="hero-background"></div>
+            <div class="container">
+                <div class="hero-content">
+                    <div class="hero-text">
+                        <h1 class="hero-title">
+                            <span class="title-main">Hackathon Faculdades Rio Branco</span>
+                            <span class="title-year">2025</span>
+                        </h1>
+                        <p class="hero-subtitle">Evento de LeetCode e Desenvolvimento de Software para Estudantes</p>
+                        <p class="hero-description">
+                            Uma experiência imersiva e desafiadora de 8 horas de desenvolvimento, 
+                            onde estudantes aplicam conhecimentos teóricos em projetos práticos e inovadores.
+                        </p>
+                        <div class="hero-actions">
+                            <a href="#inscricoes" class="btn btn-primary">Inscreva-se Agora</a>
+                            <a href="#sobre" class="btn btn-secondary">Saiba Mais</a>
+                        </div>
+                        <div class="hero-info">
+                            <div class="info-item">
+                                <span class="info-label">Data</span>
+                                <span class="info-value">Junho 2025</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-label">Duração</span>
+                                <span class="info-value">8 horas</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-label">Local</span>
+                                <span class="info-value">Faculdades Rio Branco</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hero-visual">
+                        <div class="code-animation">
+                            <div class="code-line"></div>
+                            <div class="code-line"></div>
+                            <div class="code-line"></div>
+                            <div class="code-line"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sobre o Evento -->
+        <section id="sobre" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Sobre o Evento</h2>
+                    <p class="section-subtitle">
+                        O Hackathon Rio Branco é uma iniciativa educacional inovadora que proporciona 
+                        uma experiência prática e desafiadora no desenvolvimento de software.
+                    </p>
+                </div>
+                <div class="about-grid">
+                    <div class="about-card">
+                        <div class="card-icon">💻</div>
+                        <h3>Desenvolvimento Intensivo</h3>
+                        <p>8 horas de desenvolvimento colaborativo em um ambiente dinâmico que simula as condições reais do mercado tecnológico.</p>
+                    </div>
+                    <div class="about-card">
+                        <div class="card-icon">👥</div>
+                        <h3>Trabalho em Equipe</h3>
+                        <p>Equipes de até 3 participantes com autonomia total para organização, metodologia e divisão de tarefas.</p>
+                    </div>
+                    <div class="about-card">
+                        <div class="card-icon">🎯</div>
+                        <h3>Desafios Reais</h3>
+                        <p>Projetos que exigem implementação de back-end e front-end funcionais, aplicando conhecimentos teóricos na prática.</p>
+                    </div>
+                    <div class="about-card">
+                        <div class="card-icon">🏆</div>
+                        <h3>Reconhecimento</h3>
+                        <p>Sistema de avaliação misto com premiação e certificação para todos os participantes.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Objetivos -->
+        <section id="objetivos" class="section section-alt">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Objetivos</h2>
+                    <p class="section-subtitle">
+                        Promover a excelência acadêmica através de uma experiência prática que estimula 
+                        a criatividade, o trabalho em equipe e a aplicação de conhecimentos técnicos.
+                    </p>
+                </div>
+                <div class="objectives-container">
+                    <div class="objectives-column">
+                        <h3>Objetivos Educacionais</h3>
+                        <ul class="objectives-list">
+                            <li>
+                                <strong>Aplicação Prática:</strong> 
+                                Oportunidade de aplicar conceitos teóricos em projetos práticos de desenvolvimento.
+                            </li>
+                            <li>
+                                <strong>Competências Interpessoais:</strong> 
+                                Estímulo ao trabalho colaborativo, comunicação efetiva e liderança.
+                            </li>
+                            <li>
+                                <strong>Criatividade e Inovação:</strong> 
+                                Incentivo ao pensamento criativo na resolução de problemas tecnológicos.
+                            </li>
+                            <li>
+                                <strong>Ambiente Profissional:</strong> 
+                                Simulação das condições reais do mercado de trabalho tecnológico.
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="objectives-column">
+                        <h3>Objetivos Institucionais</h3>
+                        <ul class="objectives-list">
+                            <li>
+                                <strong>Fortalecimento da Marca:</strong> 
+                                Posicionar as Faculdades Rio Branco como instituição inovadora.
+                            </li>
+                            <li>
+                                <strong>Demonstração de Qualidade:</strong> 
+                                Evidenciar a qualidade do ensino através dos projetos desenvolvidos.
+                            </li>
+                            <li>
+                                <strong>Criação de Oportunidades:</strong> 
+                                Estabelecer conexões com profissionais do setor tecnológico.
+                            </li>
+                            <li>
+                                <strong>Desenvolvimento Institucional:</strong> 
+                                Criar uma tradição anual que contribua para a identidade da faculdade.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Como Funciona -->
+        <section id="como-funciona" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Como Funciona</h2>
+                    <p class="section-subtitle">
+                        Entenda a estrutura e metodologia do evento que combina desafio técnico 
+                        com viabilidade pedagógica e organizacional.
+                    </p>
+                </div>
+                <div class="how-it-works">
+                    <div class="process-step">
+                        <div class="step-number">1</div>
+                        <div class="step-content">
+                            <h3>Formação de Equipes</h3>
+                            <p>Equipes de até 3 participantes com autonomia completa para organização e metodologia de trabalho.</p>
+                        </div>
+                    </div>
+                    <div class="process-step">
+                        <div class="step-number">2</div>
+                        <div class="step-content">
+                            <h3>Revelação do Desafio</h3>
+                            <p>Desafio técnico revelado no início do evento, exigindo implementação de back-end e front-end funcionais.</p>
+                        </div>
+                    </div>
+                    <div class="process-step">
+                        <div class="step-number">3</div>
+                        <div class="step-content">
+                            <h3>Desenvolvimento</h3>
+                            <p>8 horas de desenvolvimento intensivo com liberdade total na escolha de tecnologias e arquitetura.</p>
+                        </div>
+                    </div>
+                    <div class="process-step">
+                        <div class="step-number">4</div>
+                        <div class="step-content">
+                            <h3>Apresentação</h3>
+                            <p>15 minutos por equipe para apresentar e demonstrar o projeto funcionando ao vivo.</p>
+                        </div>
+                    </div>
+                    <div class="process-step">
+                        <div class="step-number">5</div>
+                        <div class="step-content">
+                            <h3>Avaliação</h3>
+                            <p>Sistema misto: 60% avaliação por pares + 40% avaliação técnica especializada.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="requirements">
+                    <h3>Requisitos Técnicos</h3>
+                    <div class="requirements-grid">
+                        <div class="requirement-card">
+                            <h4>Obrigatórios</h4>
+                            <ul>
+                                <li>Back-end funcional (APIs, lógica de servidor)</li>
+                                <li>Front-end funcional (web, mobile ou desktop)</li>
+                                <li>Projeto demonstrável e operacional</li>
+                            </ul>
+                        </div>
+                        <div class="requirement-card">
+                            <h4>Flexibilidades</h4>
+                            <ul>
+                                <li>Liberdade total na escolha de tecnologias</li>
+                                <li>Documentação opcional</li>
+                                <li>Arquitetura sem restrições</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Cronograma -->
+        <section id="cronograma" class="section section-alt">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Cronograma</h2>
+                    <p class="section-subtitle">
+                        Programação detalhada do dia do evento, otimizada para maximizar 
+                        a experiência de desenvolvimento e aprendizado.
+                    </p>
+                </div>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-time">8:30 - 9:00</div>
+                        <div class="timeline-content">
+                            <h3>Credenciamento</h3>
+                            <p>Recepção dos participantes e entrega de materiais</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-time">9:00 - 9:15</div>
+                        <div class="timeline-content">
+                            <h3>Abertura Oficial</h3>
+                            <p>Apresentação das regras e boas-vindas</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-time">9:15 - 9:30</div>
+                        <div class="timeline-content">
+                            <h3>Revelação do Desafio</h3>
+                            <p>Apresentação do tema e formação final das equipes</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item highlight">
+                        <div class="timeline-time">9:30 - 13:00</div>
+                        <div class="timeline-content">
+                            <h3>Primeira Sessão de Desenvolvimento</h3>
+                            <p>3h30 de desenvolvimento intensivo</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-time">13:00 - 14:00</div>
+                        <div class="timeline-content">
+                            <h3>Pausa para Almoço</h3>
+                            <p>Descanso e networking entre participantes</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item highlight">
+                        <div class="timeline-time">14:00 - 18:00</div>
+                        <div class="timeline-content">
+                            <h3>Segunda Sessão de Desenvolvimento</h3>
+                            <p>4h de desenvolvimento e finalização dos projetos</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-time">18:00 - 18:30</div>
+                        <div class="timeline-content">
+                            <h3>Preparação para Apresentações</h3>
+                            <p>Organização e teste dos projetos</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-time">18:30 - 20:15</div>
+                        <div class="timeline-content">
+                            <h3>Apresentações dos Projetos</h3>
+                            <p>15 minutos por equipe para demonstração</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-time">20:15 - 20:25</div>
+                        <div class="timeline-content">
+                            <h3>Deliberação</h3>
+                            <p>Avaliação final e definição dos vencedores</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-time">20:25 - 20:30</div>
+                        <div class="timeline-content">
+                            <h3>Premiação e Encerramento</h3>
+                            <p>Cerimônia de premiação e encerramento oficial</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Premiação -->
+        <section id="premiacao" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Premiação</h2>
+                    <p class="section-subtitle">
+                        Reconhecimento da excelência através de prêmios que representam 
+                        o prestígio da instituição e servem como lembrança permanente da conquista.
+                    </p>
+                </div>
+                <div class="awards-grid">
+                    <div class="award-card gold">
+                        <div class="award-position">1º</div>
+                        <h3>Primeiro Lugar</h3>
+                        <ul>
+                            <li>Troféu personalizado do Hackathon Rio Branco</li>
+                            <li>Certificado de excelência em desenvolvimento</li>
+                            <li>Destaque especial nas comunicações da faculdade</li>
+                        </ul>
+                    </div>
+                    <div class="award-card silver">
+                        <div class="award-position">2º</div>
+                        <h3>Segundo Lugar</h3>
+                        <ul>
+                            <li>Troféu personalizado do Hackathon Rio Branco</li>
+                            <li>Certificado de mérito em desenvolvimento</li>
+                            <li>Destaque nas comunicações da faculdade</li>
+                        </ul>
+                    </div>
+                    <div class="award-card bronze">
+                        <div class="award-position">3º</div>
+                        <h3>Terceiro Lugar</h3>
+                        <ul>
+                            <li>Troféu personalizado do Hackathon Rio Branco</li>
+                            <li>Certificado de participação destacada</li>
+                            <li>Menção honrosa nas comunicações</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="special-awards">
+                    <h3>Prêmios Especiais</h3>
+                    <div class="special-awards-grid">
+                        <div class="special-award">
+                            <div class="special-icon">💡</div>
+                            <h4>Prêmio Inovação</h4>
+                            <p>Para a solução mais criativa e inovadora</p>
+                        </div>
+                        <div class="special-award">
+                            <div class="special-icon">⚙️</div>
+                            <h4>Prêmio Técnico</h4>
+                            <p>Para a melhor implementação técnica</p>
+                        </div>
+                        <div class="special-award">
+                            <div class="special-icon">❤️</div>
+                            <h4>Prêmio Popular</h4>
+                            <p>Escolhido pela votação dos participantes</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="participation-certificate">
+                    <h3>Certificação para Todos</h3>
+                    <p>Todos os participantes receberão certificado de participação com descrição das competências desenvolvidas e possibilidade de aproveitamento como atividade complementar.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Inscrições -->
+        <section id="inscricoes" class="section section-alt">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Inscrições</h2>
+                    <p class="section-subtitle">
+                        Participe desta experiência única de desenvolvimento e aprendizado. 
+                        Vagas limitadas pela capacidade do local.
+                    </p>
+                </div>
+                <div class="registration-content">
+                    <div class="registration-info">
+                        <h3>Requisitos de Participação</h3>
+                        <ul class="requirements-list">
+                            <li>Estudantes regularmente matriculados nas Faculdades Integradas Rio Branco</li>
+                            <li>Prioritariamente estudantes do curso de Sistemas de Informação</li>
+                            <li>Semestres elegíveis conforme definição dos professores responsáveis</li>
+                            <li>Conhecimentos básicos em programação</li>
+                            <li>Disponibilidade para dedicação integral ao evento</li>
+                        </ul>
+                        
+                        <h3>Informações Importantes</h3>
+                        <ul class="info-list">
+                            <li><strong>Participação:</strong> Gratuita para incentivar a adesão dos estudantes</li>
+                            <li><strong>Inscrições:</strong> Individuais com posterior formação de equipes</li>
+                            <li><strong>Confirmação:</strong> Obrigatória até 1 semana antes do evento</li>
+                            <li><strong>Equipamentos:</strong> Participantes podem trazer laptops próprios ou usar os da faculdade</li>
+                        </ul>
+                    </div>
+                    <div class="registration-form">
+                        <div class="form-container">
+                            <h3>Formulário de Inscrição</h3>
+                            <p class="form-note">As inscrições serão abertas em breve. Deixe seus dados para ser notificado.</p>
+                            <form id="registrationForm">
+                                <div class="form-group">
+                                    <label for="name">Nome Completo</label>
+                                    <input type="text" id="name" name="name" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="email">E-mail</label>
+                                    <input type="email" id="email" name="email" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="course">Curso</label>
+                                    <select id="course" name="course" required>
+                                        <option value="">Selecione seu curso</option>
+                                        <option value="sistemas">Sistemas de Informação</option>
+                                        <option value="outros">Outros</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <label for="semester">Semestre</label>
+                                    <select id="semester" name="semester" required>
+                                        <option value="">Selecione seu semestre</option>
+                                        <option value="1">1º Semestre</option>
+                                        <option value="2">2º Semestre</option>
+                                        <option value="3">3º Semestre</option>
+                                        <option value="4">4º Semestre</option>
+                                        <option value="5">5º Semestre</option>
+                                        <option value="6">6º Semestre</option>
+                                        <option value="7">7º Semestre</option>
+                                        <option value="8">8º Semestre</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <label for="experience">Experiência em Programação</label>
+                                    <select id="experience" name="experience" required>
+                                        <option value="">Selecione seu nível</option>
+                                        <option value="iniciante">Iniciante</option>
+                                        <option value="intermediario">Intermediário</option>
+                                        <option value="avancado">Avançado</option>
+                                    </select>
+                                </div>
+                                <button type="submit" class="btn btn-primary">Manifestar Interesse</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contato -->
+        <section id="contato" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Contato</h2>
+                    <p class="section-subtitle">
+                        Entre em contato conosco para esclarecer dúvidas ou obter mais informações sobre o evento.
+                    </p>
+                </div>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <h3>📍 Localização</h3>
+                            <p>
+                                Faculdades Integradas Rio Branco<br>
+                                Campus Granja Vianna<br>
+                                Rod. Raposo Tavares, 7.200 (km 24)<br>
+                                Granja Vianna - Cotia - SP
+                            </p>
+                        </div>
+                        <div class="contact-item">
+                            <h3>📧 E-mail</h3>
+                            <p>
+                                Para dúvidas sobre o evento:<br>
+                                <a href="mailto:hackathon@riobranco.edu.br">hackathon@riobranco.edu.br</a>
+                            </p>
+                        </div>
+                        <div class="contact-item">
+                            <h3>📱 Redes Sociais</h3>
+                            <p>
+                                Siga-nos para atualizações:<br>
+                                <a href="#" target="_blank">@hackathonriobranco</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="contact-form">
+                        <h3>Envie uma Mensagem</h3>
+                        <form id="contactForm">
+                            <div class="form-group">
+                                <label for="contactName">Nome</label>
+                                <input type="text" id="contactName" name="contactName" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="contactEmail">E-mail</label>
+                                <input type="email" id="contactEmail" name="contactEmail" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="subject">Assunto</label>
+                                <input type="text" id="subject" name="subject" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Mensagem</label>
+                                <textarea id="message" name="message" rows="5" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Enviar Mensagem</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- LeetCode Champions League Section -->
+        <section id="leetcode" class="leetcode-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2>LeetCode Champions League</h2>
+                    <p>Competições de programação inspiradas no formato da Champions League</p>
+                </div>
+                
+                <div class="champions-grid">
+                    <!-- LeetCode do Semestre -->
+                    <div class="champion-card">
+                        <div class="champion-icon">
+                            🏆
+                        </div>
+                        <h3>LeetCode do Semestre</h3>
+                        <p>Competição dentro de cada semestre acadêmico</p>
+                        <div class="champion-features">
+                            <div class="feature">
+                                <span class="feature-icon">📊</span>
+                                <span>Ranking por semestre</span>
+                            </div>
+                            <div class="feature">
+                                <span class="feature-icon">🎯</span>
+                                <span>Pontuação por problemas resolvidos</span>
+                            </div>
+                            <div class="feature">
+                                <span class="feature-icon">⭐</span>
+                                <span>Reconhecimento acadêmico</span>
+                            </div>
+                        </div>
+                        <button class="btn btn-secondary champion-btn">Ver Ranking</button>
+                    </div>
+
+                    <!-- LeetCode da Sala -->
+                    <div class="champion-card">
+                        <div class="champion-icon">
+                            🥇
+                        </div>
+                        <h3>LeetCode da Sala</h3>
+                        <p>Competição entre turmas do mesmo período</p>
+                        <div class="champion-features">
+                            <div class="feature">
+                                <span class="feature-icon">👥</span>
+                                <span>Equipes por sala</span>
+                            </div>
+                            <div class="feature">
+                                <span class="feature-icon">⚔️</span>
+                                <span>Batalhas entre turmas</span>
+                            </div>
+                            <div class="feature">
+                                <span class="feature-icon">🏅</span>
+                                <span>Troféu para sala vencedora</span>
+                            </div>
+                        </div>
+                        <button class="btn btn-secondary champion-btn">Ver Competições</button>
+                    </div>
+
+                    <!-- LeetCode dos Semestres -->
+                    <div class="champion-card featured">
+                        <div class="champion-icon">
+                            👑
+                        </div>
+                        <h3>LeetCode dos Semestres</h3>
+                        <p>Competição final entre vencedores de cada semestre</p>
+                        <div class="champion-features">
+                            <div class="feature">
+                                <span class="feature-icon">🏆</span>
+                                <span>Torneio eliminatório</span>
+                            </div>
+                            <div class="feature">
+                                <span class="feature-icon">💎</span>
+                                <span>Premiação especial</span>
+                            </div>
+                            <div class="feature">
+                                <span class="feature-icon">🌟</span>
+                                <span>Campeão geral</span>
+                            </div>
+                        </div>
+                        <button class="btn btn-primary champion-btn">Inscrever-se</button>
+                    </div>
+                </div>
+
+                <!-- Champions League Timeline -->
+                <div class="champions-timeline">
+                    <h3>Cronograma das Competições</h3>
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-marker"></div>
+                            <div class="timeline-content">
+                                <h4>Fase de Grupos</h4>
+                                <p>Competições dentro de cada semestre</p>
+                                <span class="timeline-date">Março - Maio</span>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-marker"></div>
+                            <div class="timeline-content">
+                                <h4>Oitavas de Final</h4>
+                                <p>Batalhas entre salas</p>
+                                <span class="timeline-date">Junho</span>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-marker"></div>
+                            <div class="timeline-content">
+                                <h4>Semifinais</h4>
+                                <p>Melhores de cada semestre</p>
+                                <span class="timeline-date">Julho</span>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-marker featured"></div>
+                            <div class="timeline-content">
+                                <h4>Final</h4>
+                                <p>Grande final do LeetCode Champions</p>
+                                <span class="timeline-date">Agosto</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Current Champions -->
+                <div class="current-champions">
+                    <h3>Campeões Atuais</h3>
+                    <div class="champions-podium">
+                        <div class="podium-place second">
+                            <div class="podium-trophy">🥈</div>
+                            <h4>2º Semestre</h4>
+                            <p>Vice-campeão 2024</p>
+                        </div>
+                        <div class="podium-place first">
+                            <div class="podium-trophy">🏆</div>
+                            <h4>4º Semestre</h4>
+                            <p>Campeão 2024</p>
+                        </div>
+                        <div class="podium-place third">
+                            <div class="podium-trophy">🥉</div>
+                            <h4>6º Semestre</h4>
+                            <p>3º Lugar 2024</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <img src="riobrancologobranca.png" alt="Rio Branco Logo">
+                        <h3>Hackathon Rio Branco 2025</h3>
+                    </div>
+                    <p>Evento de Desenvolvimento de Software para Estudantes das Faculdades Integradas Rio Branco</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Links Rápidos</h4>
+                    <ul>
+                        <li><a href="#sobre">Sobre</a></li>
+                        <li><a href="#objetivos">Objetivos</a></li>
+                        <li><a href="#cronograma">Cronograma</a></li>
+                        <li><a href="#inscricoes">Inscrições</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contato</h4>
+                    <p>hackathon@riobranco.edu.br</p>
+                    <p>Faculdades Integradas Rio Branco</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Faculdades Integradas Rio Branco. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Modal de Login -->
+    <div id="loginModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>Login</h3>
+                <button class="modal-close" id="modalClose">&times;</button>
+            </div>
+            <div class="modal-body">
+                <p>Área de login para acompanhar inscrições e resultados.</p>
+                <form id="loginForm">
+                    <div class="form-group">
+                        <label for="loginEmail">E-mail</label>
+                        <input type="email" id="loginEmail" name="loginEmail" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="loginPassword">Senha</label>
+                        <input type="password" id="loginPassword" name="loginPassword" required>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Entrar</button>
+                </form>
+                <p class="modal-note">Funcionalidade em desenvolvimento. Em breve você poderá acompanhar suas inscrições e resultados dos hackathons.</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
